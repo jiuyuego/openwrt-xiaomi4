@@ -42,3 +42,7 @@ A template for building OpenWrt with GitHub Actions
 ## License
 
 [MIT](https://github.com/P3TERX/Actions-OpenWrt/blob/main/LICENSE) © [**P3TERX**](https://p3terx.com)
+
+Apparmor is a kernel security mechanism to restrict programs capabilities with per-program profiles.   
+The AppArmor profile for msmtp covers a lot of common usecases but there are still corner cases with some options which breaks msmtp with incomprehensible permissions denied errors.
+Enable AppArmor support?
